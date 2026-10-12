@@ -1,0 +1,123 @@
+ssh-keygen
+cd 
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub 
+cd 
+sudo apt install git
+git --version
+git clone git@github.com:Chosuey10/TP_AySO.git
+cp README TP_AySO/
+cd TP_AySO/
+ls -la
+git status
+cd
+mkdir repogit
+sudo mkdir repogit
+ls -la
+cd repogit/
+ls  -la
+git clone git@github.com:Chosuey10/TP_AySO.git
+ls -la
+cd TP_AySO/
+pwd
+ls 
+cd
+cd repogit/
+ls -la
+cd
+ls -la
+cat .bash_history 
+cd repogit/
+cd TP_AySO/
+man grep
+ls -la
+cat /etc/shadow
+sudo cat /etc/shadow
+grep VAGRANT /etc/shadow
+sudo grep VAGRANT /etc/shadow
+grep vagrant  /etc/shadow
+sudo grep vagrant  /etc/shadow
+sudo grep -i vagrant  /etc/shadow
+man useradd
+man awk
+sudo grep "^vagrant:" /etc/shadow | awk -F: '{print $2}' > pass_usuario.txt
+ls -la
+cat pass_usuario.txt 
+whoami
+cat P
+cat pass_usuario.txt 
+git status
+git add .}
+git add .
+git status
+git commit -m "ADD: Agregado 1er ejercicio sobre pass_usuario.txt"
+git config --global user.mail "josueealchaer@gmail.com"
+git config --global user.name "Chosuey10"
+git commit -m "ADD: Agregado 1er ejercicio sobre pass_usuario.txt"
+git status
+ls -la
+cd 
+ls -la /home/vagrant/
+ls -la /home/vagrant/ > permisos.txt
+cat permisos.txt 
+git add .
+ls -la
+rm permisos.txt 
+ls -la
+cd repogit/
+cd TP_AySO/
+ls -la
+ls -la /home/vagrant/
+ls -la /home/vagrant/ > permisos.txt
+cat permisos.txt 
+echo "ls -la /home/vagrant/ > permisos.txt" >> permisos.txt
+cat permisos.txt 
+git add .
+git status
+git commit -m "ADD: Añadiendo archivo permisos"
+git config --global user.mail "josueealchaer@gmail.com"
+git commit -m "ADD: Añadiendo archivo permisos"
+git push
+man grep
+man awk
+grep -v "root:" /etc/passwd | cut -d: -f1 | head -n 10 | sort > lista_ordenada
+cat lista_ordenada 
+sudo cat /etc/shadow
+git add .
+git commit -m "ADD:Listado de usuarios ordenada"
+git config --global user.email "josueealchaer@gmail.com"
+git config --global user.name "Chosuey10"
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+cat README.md 
+cat <<FIN > README.md 
+# TP_AySO
+Alumno: Josué Al Chaer
+División: 111
+Turno: Turno mañana
+FIN
+
+git add README.md 
+git commit -m "docs: ADD: información del alumno al README.md"
+cd ..
+cd
+cd repogit/TP_AySO/
+git push
+cd ..
+cd
+sudo snap install tree
+mkdir -p universidad/alumnos/legajos{1..15} universidad/profesores/legajos{1..5}
+tree universidad/
+echo ' mkdir -p universidad/alumnos/legajos{1..15} universidad/profesores/legajos{1..5}' > script_dir.sh
+cat script_dir.sh 
+git add .
+git add script_dir.sh 
+mv script_dir.sh ~/repogit/TP_AySO/
+cd repogit/TP_AySO/
+ls -la
+git add script_dir.sh 
+git status
+history -a
