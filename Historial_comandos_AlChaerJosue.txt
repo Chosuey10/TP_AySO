@@ -121,3 +121,21 @@ ls -la
 git add script_dir.sh 
 git status
 history -a
+cp ~/.bash_history Historial_comandos_AlChaerJosue.txt
+cat Historial_comandos_AlChaerJosue.txt 
+git add Historial_comandos_AlChaerJosue.txt 
+git status
+git restore --staged Historial_comandos_AlChaerJosue.txt
+git status
+git commit -m "ADD: Añadiendo archivo script"
+git push
+git add script_dir.sh 
+git commit -m "ADD: Añadiendo archivo script"
+git push
+git pull origin main --rebase
+git push origin main
+git add Historial_comandos_AlChaerJosue.txt 
+git status
+git commit -m "ADD: Historial de comandos"
+git push
+history -a
